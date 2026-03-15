@@ -1,0 +1,16 @@
+{"rating_params": {
+        "date": "20220101",
+        "rating_method": "1",
+        "tdr_source": "1",
+        "lognorm_source": "1",
+        "data_source": "1",
+        "same_type": "1"
+
+}, "rating_params2": {"date": "20220101",
+        "rating_method": "1",
+        "tdr_source": "1",
+        "lognorm_source": "1",
+        "data_source": "2",
+        "same_type": "1"
+
+}}
