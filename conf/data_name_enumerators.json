@@ -1,0 +1,137 @@
+{
+"CSI_ABS_RATING_CONFIG": {
+"RATING_METHOD": {
+"1": "None",
+"2": "pressure_multiplier",
+"3": "lognorm_distribution"
+},
+"TDR_SOURCE": {
+"1": "None",
+"2": "rating_report",
+"3": "calculation",
+"4": "both",
+"5": "customize"
+},
+"LOGNORM_SOURCE": {
+"1": "None",
+"2": "rating_report",
+"3": "calculation"
+},
+"DATA_SOURCE": {
+"1": "None",
+"2": "customize",
+"3": "rating_report",
+"4": "calculation",
+"5": "bayesian_estimation"
+}
+},
+"CSI_ABS_VALUATION_INPUT": {
+"SCENARIO_TYPE": {
+"1": "user",
+"2": "model"
+},
+"MODEL_TYPE": {
+"1": "linear_model",
+"2": "sigmoid_model",
+"3": "markov_model",
+"4": "extrapolate_model"
+},
+"RECAL_CASHFLOW": {
+"1": "True",
+"0": "False"
+},
+"SUOE": {
+"1": "True",
+"0": "False"
+},
+"EXIST_TAX_EXP": {
+"1": "True",
+"0": "False"
+},
+"DP_MATCH_PERFECTLY": {
+"1": "True",
+"0": "False"
+},
+"MINUS_CDR": {
+"1": "True",
+"0": "False"
+},
+"BEGIN_DEFAULT_RECOVER": {
+"1": "True",
+"0": "False"
+},
+"SPLIT_DEFAULT": {
+"1": "True",
+"0": "False"
+},
+"SAME_TYPE": {
+"1": "True",
+"0": "False"
+},
+"ADD_REMAIN_ACCOUNT": {
+"1": "True",
+"0": "False"
+},
+"MODULE_TYPE": {
+"1": "static_normal1",
+"2": "static_normal2",
+"3": "series_normal1",
+"4": "series_normal2",
+"5": "static_npl_recal",
+"6": "static_rev_recal",
+"7": "series_rev_recal"
+},
+"INTEREST_METHOD": {
+"1": "yield_",
+"2": "discount"
+},
+"DAY_COUNT_METHOD": {
+"1": "begin",
+"2": "end"
+},
+"PARAM_MATCH_METHOD": {
+"1": "remain",
+"2": "all"
+},
+"CPR_TYPE": {
+"1": "type1",
+"2": "type2"
+}
+},
+"CSI_ABS_RATING_INPUT": {
+"SAME_TYPE": {
+"1": "True",
+"0": "False"
+},
+"RATING_METHOD": {
+"1": "None",
+"2": "pressure_multiplier",
+"3": "lognorm_distribution"
+},
+"TDR_SOURCE": {
+"1": "None",
+"2": "rating_report",
+"3": "calculation",
+"4": "both",
+"5": "customize"
+},
+"LOGNORM_SOURCE": {
+"1": "None",
+"2": "rating_report",
+"3": "calculation"
+},
+"DATA_SOURCE": {
+"1": "None",
+"2": "customize",
+"3": "rating_report",
+"4": "calculation",
+"5": "bayesian_estimation"
+}
+},
+"CSI_ABS_RATING_SCENARIO_COMBINATION": {
+"IS_REV": {
+"1": "True",
+"0": "False"
+}
+}
+}
